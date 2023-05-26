@@ -309,7 +309,7 @@ class AerSimulator(AerBackend):
 
     * ``stabilizer_max_snapshot_probabilities`` (int): set the maximum
       qubit number for the
-      `~qiskit_aer.extensions.SnapshotProbabilities`
+      :func: `~qiskit_aer.extensions.SnapshotProbabilities`
       instruction (Default: 32).
 
     These backend options only apply when using the ``"extended_stabilizer"``
